@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🧠 Thyroid Nodule Classification with Deep Learning
 This project implements a deep learning system for classifying thyroid nodules as benign or malignant using multiple ultrasound images per patient. It uses a ResNet18-based convolutional neural network and applies patient-level aggregation to perform diagnosis from a bag of images, making it suitable for multi-instance medical imaging tasks.
 
@@ -81,3 +82,6 @@ You have a folder of thyroid ultrasound images per patient and want to build a s
 Based on real-world diagnostic challenges
 
 Inspired by medical MIL papers and multi-view CNN architectures
+=======
+# ThyroidAssistant
+>>>>>>> a106adca2917adfcaf833720c3c2622304985af2
