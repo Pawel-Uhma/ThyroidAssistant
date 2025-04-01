@@ -1,0 +1,22 @@
+paths:
+  image_dir: "../data/processed"
+  labels_dir: "../data/labels"
+  model_save_path: "../models/model.pth"
+
+training:
+  batch_size: 1
+  epochs: 2
+  learning_rate: 0.001
+  split_ratio: 0.8
+
+model:
+  name: "MILModel"
+  input_channels: 3
+  image_size: 224
+
+device: "cuda"
+
+log:
+  plot_loss: true
+  save_model: true
+  output_dir: "../outputs"
